@@ -6,7 +6,6 @@ function App() {
   const [email, setEmail] = useState("");
 
   const handleSubmit = e => {
-    //console.log("selll")
     e.preventDefault();
 
     axios.post("http://localhost:8600/api/sendemail", {
